@@ -1,177 +1,94 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Poppins', sans-serif;
-    font-family: 'Work Sans', sans-serif;
-}
-li{
-    list-style: none;
-}
-a{
-    text-decoration: none;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Year New Me</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&family=Work+Sans&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f0c85af03e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <section class="banner">
+            <p class="banner-heading">All Thinks Are Possible If You believe</p>
+            <p class="banner-description">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words</p>
+            <button type="button" class="primary-btn"><i class="fa-solid fa-headset"></i> Contact Us</button>
+        </section>
+    </header>
+    <main>
+        <section class="failure">
+            <div class="image">
+                <img src="images/person.png" alt="the girl who failed last year">
+            </div>
+            <div class="content">
+                <h3 class="section-title">My failures of previous year</h3>
+                <p class="failure-description banner-description">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock.</p>
+                <ul>
+                    <li><p><i class="fa-solid fa-check"></i> Contrary to popular belief, is not simply.</p></li>
+                    <li><p><i class="fa-solid fa-check"></i> Contrary to popular belief.</p></li>
+                    <li><p><i class="fa-solid fa-check"></i> Contrary to popular , is not simply.</p></li>
+                    <li><p><i class="fa-solid fa-check"></i> Contrary to popular belief, is not simply.</p></li>
+                    <li><p><i class="fa-solid fa-check"></i> Contrary to popular simply.</p></li>
+                </ul>
+            </div>
+        </section>
 
-/* header styles */
-header{
-    background-image: url(images/banner/banner1.png);
-    background-size: cover;
-    display: flex;
-    justify-content: end;
-    align-items: center;
-}
-.banner{
-    text-align: right;
-    height: 70vh;
-    width: 30%;
-    padding: 230px 230px 0 0;
-
-    
-}
-.banner-heading{
-    font-size: 65px;
-    color: #151414;
-    font-weight: 800;
-}
-.banner-description{
-    font-size: 16px;
-    color: #444343;
-    margin: 20px 0;
-}
-.primary-btn{
-    background-color: #F15B22;
-    color: #fff;
-    font-size: 20px;
-    font-weight: 600;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-.primary-btn:hover{
-    color: #F15B22;
-    background-color: #fff;
-    border: 1px solid #F15B22;
-}
-
-/* failure styles */
-.failure{
-    width: 80%;
-    display: flex;
-    gap: 300px;
-    align-items: center;
-    margin: 0 auto;
-    margin-top: 150px;
-    margin-bottom: 150px;
-
-}
-.image, .content{
-    width: 30%;
-}
-.section-title{
-    font-size: 40px;
-    color: #151414;
-    font-weight: 800;
-}
-.failure li{
-    margin: 10px 0;
-    color: #444343;
-    font-size: 16px;
-
-}
-.failure li i{
-    color: #16D887;
-    font-size: 16px;
-}
-
-/* plan styles */
-
-.plans{
-    width: 80%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    margin-top: 80px;
-    margin-bottom: 150px;
-    text-align: center;
-}
-.plan-title{
-    color: #151414;
-    font-size: 30px;
-    font-weight: 800;
-}
-.plan-subtitle{
-    color: #737272;
-    font-size: 25px;
-    font-weight: 500;
-}
-.positive{
-    background-image: url(images/watch.png), url(images/gradient2.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    width: 80%;  
-    margin: 0 auto;
-    margin-bottom: 80px;
-    border-radius: 5px;
-}
-.positive-text{
-    width: 30%;
-    padding: 60px 0 80px 60px;
-}
-.positive-title{
-    color: #fff;
-}
-.call-btn{
-    font-size: 20px;
-    font-weight: 600;
-    color: #F15B22;
-    border: none ;
-    background-color: #fff;
-    border-radius: 5px;
-    padding: 10px 20px;
-    margin: 20px 0;
-}
-footer{
-    background-color: #151414;
-}
-.footer-contents{
-    width: 80%;
-    display: flex;
-    margin: 0 auto;
-    justify-content: space-between;
-    padding: 130px 0;
-}
-.left, .right{
-    width: 35%;
-}
-.footer-title{
-    font-size: 45px;
-    color: #F8F8F8;
-    font-weight: 800;
-}
-.footer-description{
-    font-size: 16px;
-    color: #fff;
-    margin: 15px 0;
-}
-
-.social img{
-    margin-right: 10px;
-}
-
-.right-title{
-    font-size: 25px;
-    font-weight: 600;
-    color: #fff;
-}
-
-input{
-    padding: 15px ;
-    display: block;
-    background-color: #151414;
-    border: 1px solid #fff;
-    border-radius: 5px;
-    margin: 15px 0;
-    color: #fff;
-}
+        <section class="plan">
+            <h3 class="section-title" style="text-align: center;">My Plan</h3>
+            <div class="plans">
+                <div class="plan">
+                    <img class="plan-img" src="images/icons/web.png" alt="web">
+                    <p class="plan-title">Web Development</p>
+                    <p class="plan-subtitle">I want to start</p>
+                </div>
+                <div class="plan">
+                    <img class="plan-img" src="images/icons/js.png" alt="javascript">
+                    <p class="plan-title">Javascript</p>
+                    <p class="plan-subtitle">I want to learn</p>
+                </div>
+                <div class="plan">
+                    <img class="plan-img" src="images/icons/smoke.png" alt="smoking">
+                    <p class="plan-title">Smoking Habit</p>
+                    <p class="plan-subtitle">I want to end</p>
+                </div>
+                <div class="plan">
+                    <img class="plan-img" src="images/icons/ecom.png" alt="ecommerce">
+                    <p class="plan-title">ecommerce</p>
+                    <p class="plan-subtitle">I want to develop</p>
+                </div>
+            </div>
+            <div class="positive">
+                <div class="positive-text">
+                    <h3 class="section-title positive-title">Awlays keep a positive mindset</h3>
+                    <button type="button" class="call-btn"><i class="fa-solid fa-phone"></i> Call Now</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-contents">
+            <div class="left">
+                <h3 class="footer-title">Future</h3>
+                <p class="footer-description">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words</p>
+                <p class="footer-description">Email : info@gmail.com</p>
+                <p class="footer-description">Phone : 01500 00 00 00</p>
+                <div class="social">
+                    <a href="http://" target="_blank" rel="noopener noreferrer"><img src="images/icons/fb.png" alt="facebook"></a>
+                    <a href="http://" target="_blank" rel="noopener noreferrer"><img src="images/icons/twitter.png" alt="twitter"></a>
+                    <a href="http://" target="_blank" rel="noopener noreferrer"><img src="images/icons/youtube.png" alt="youtube"></a>
+                </div>
+            </div>
+            <div class="right">
+                <h4 class="right-title">Subscribe</h4>
+                <form action="">
+                    <input type="email" name="" id="" placeholder="Your email">
+                    <input type="button" value="Submit" class="call-btn submit-btn">
+                </form>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

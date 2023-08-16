@@ -14,7 +14,7 @@ a{
 
 /* header styles */
 header{
-    background-image: url(images/banner/banner1.png);
+    background-image: url(images/banner/banner3.png);
     background-size: cover;
     display: flex;
     justify-content: end;
@@ -30,17 +30,17 @@ header{
 }
 .banner-heading{
     font-size: 65px;
-    color: #151414;
+    color: #fff;
     font-weight: 800;
 }
 .banner-description{
     font-size: 16px;
-    color: #444343;
+    color: #fff;
     margin: 20px 0;
 }
 .primary-btn{
-    background-color: #F15B22;
-    color: #fff;
+    background-color: #fff;
+    color: #005FAC;
     font-size: 20px;
     font-weight: 600;
     padding: 10px 20px;
@@ -125,7 +125,7 @@ header{
 .call-btn{
     font-size: 20px;
     font-weight: 600;
-    color: #F15B22;
+    color: #005FAC;
     border: none ;
     background-color: #fff;
     border-radius: 5px;
@@ -174,4 +174,8 @@ input{
     border-radius: 5px;
     margin: 15px 0;
     color: #fff;
+}
+.submit-btn{
+    color: #fff;
+    background-color: #005FAC;
 }
